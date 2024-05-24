@@ -1,12 +1,22 @@
-p
-{
+p {
   color: aqua;
   background-color: blue;
+  justify-content: right;
 }
-.container
-{
-  display: 100%;
-  justify-content: center;
+
+.container {
+  display: flex; /* Assuming you want to use flexbox */
+  justify-content: flex-center; /* Align items to the end of the container */
   width: 100%;
+  text-align: justify; /* Center-align text within the container */
+}
+
+.content-container{
+  width: 100%;
+  max-width: 748px;
 
 }
+.title{
+  color: rgb(252, 235, 1);
+}
+
