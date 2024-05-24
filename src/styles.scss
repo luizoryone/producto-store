@@ -3,10 +3,21 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-.container
-{
-  display: 100%;
-  justify-content: center;
+
+.container {
+  display: flex; /* Assuming you want to use flexbox */
+  justify-content: center; /* Align items to the end of the container */
   width: 100%;
+  text-align: justify; /* Center-align text within the container */
+}
+
+.content-container{
+  width: 100%;
+  max-width: 748px;
+
 
 }
+.title{
+  color: rgb(252, 235, 1);
+}
+
